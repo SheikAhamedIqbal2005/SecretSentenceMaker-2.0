@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Decoder</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="Files/G.jpeg">
+   </head>
+
+
+ <style>
+  .flex-parent {
+  display: flex;
+  }
+
+  .jc-center {
+  justify-content: center;
+  }
+
+  .form-text{
+  padding:10px 5px;
+  font-size: 120%;
+  }
+  
+  </style>
+
+
+
+<body style="background-color: black">
+
+<!-- Heading -->
+       <h1 style="font-size: 200%; text-align: center; font-family: Comic Sans MS; color: dodgerblue">Encoder</h1>
+       <hr/>
+
+<!-- Input from the User -->
+      <br/>
+      
+      <div style="text-align: center">
+      <input id="normalsentence" class="form-text" placeholder="Type your Normal Sentence">
+      </div>
+      
+      <br/>
+      <!-- Button -->
+      <div class="flex-parent jc-center">
+      <button onclick="converter()" style="font-size: 150%; background-color: black; color: lime">Convert the Sentence</button>
+      </div>
+
+<!-- Answer Layout -->
+      <h1 style="font-size: 175%; text-align: center; font-family: Comic Sans MS; color: red">Your Secret Sentence : </h1>
+      <h1 style="font-size: 150%; text-align: center; font-family: Comic Sans MS; color: lime" id="Answer"></h1>
+   </body>
+
+<script src="Files/script.js"></script>
+
+</html>
